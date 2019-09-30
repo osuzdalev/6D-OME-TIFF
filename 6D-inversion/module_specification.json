@@ -1,0 +1,22 @@
+{
+    "spec": {
+        "inputs": {
+            "input_image": {
+                "type:file": {
+                    "format": "ome-tiff"
+                }
+            }
+        },
+        "outputs": {
+            "output_image": {
+                "type:file": {
+                    "format": "ome-tiff"
+                }
+            }
+        }
+    },
+    "ui": {
+        "inputs": {},
+        "outputs": {}
+    }
+}
