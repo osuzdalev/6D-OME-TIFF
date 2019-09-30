@@ -1,0 +1,35 @@
+{
+    "spec": {
+        "inputs": {
+            "input_image": {
+                "type:file": {}
+            },
+            "keys": {
+            "type:string": {},
+                "default": ""
+            }
+    },
+        "outputs": {
+            "output_image": {
+                "type:file": {}
+            }
+        }
+    },
+    "ui": {
+        "inputs": {
+            "input_image": {
+                "label": "input_image",
+                "index": 1,
+                "widget:none": null,
+                "description": "Takes in an image"
+            },
+            "keys": {
+                "label": "keys",
+                "index": 2,
+                "widget:textbox": {},
+                "description": "type in the keys you would like to use eg '-bigtiff -compression LZW'"
+            }
+        },
+        "outputs": {}
+    }
+}

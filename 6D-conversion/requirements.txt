@@ -1,0 +1,3 @@
+apeer-dev-kit>=1.0.6,<2
+
+plumbum #=1.6.7
